@@ -1,0 +1,34 @@
+  
+  <script>
+  	
+	var a = parseInt(prompt('Vvedite znachenie a'));
+	var b = parseInt(prompt('Vvedite znachenie b'));
+	var c = parseInt(prompt('Vvedite znachenie c'));
+	var d = parseInt(prompt('Vvedite znachenie d'));
+
+	sravnenie(a, b, c, d);
+
+	//////////////////////////////////////
+
+	function sravnenie(a, b, c, d) {
+
+		var ab = (a + b) / 2;
+		var cd = (c + d) / 2;
+			if (ab > cd) {
+		alert (' Среднее значение a и b =' + ab + ' это больше среднего значения c и d = ' + cd);
+		}
+		if (ab < cd) {
+		alert (' Среднее значение a и b =' + ab + ' это меньше среднего значения c и d = ' + cd);
+		}
+			
+		if (ab == cd) {
+		alert ('Средние значения равны');
+		}		
+			}
+
+
+
+
+
+
+  </script>

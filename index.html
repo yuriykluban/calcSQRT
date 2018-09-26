@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	
+	<script type="text/javascript">
+			
+		var name = prompt ('Как тебя зовут?');
+
+		var age = prompt('Сколько тебе лет?');
+
+
+		var pets = prompt ('У тебя есть домашний питомец?', 'Да/Нет');
+			if (pets == 'Да') {
+				var petsname = prompt('Как зовут питомца?');
+				alert ('Привет '+name+'. Как дела у '+petsname+' ');
+				}
+					if (pets == 'Нет') {
+					alert ('Привет '+name+'. Не грустно жить без питомца?');
+					} 
+					if (pets == '') {
+						alert ('Вы ничего не указали,try again!');
+					}
+
+
+	</script>	
+
+
+
+
+</body>	
+</html>
