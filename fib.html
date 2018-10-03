@@ -1,0 +1,23 @@
+<script>
+	
+function fib(n) {
+	var a = 1,
+	b = 1;
+	for (var i = 3; i <= n; i++) {
+	var c = a + b;
+	a = b;
+	b = c;
+}
+  return b;
+}
+
+var arr = [fib(1), fib(2), fib(3), fib(4), fib(5), fib(6), fib(7), fib(8), fib(9), fib(10), fib(11),];
+alert(arr);
+
+
+
+
+
+
+
+</script>
